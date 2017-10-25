@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Массив</title>
+</head>
+
+<body>
+    <script>
+
+        // генерация случайного числа
+        function aGetNumber() {
+            var a = Math.random();
+            return a;
+        }
+        document.write(aGetNumber() + " / ");
+
+        // массив
+        var b = [20, 5, 6, 3, 7, 8, 6, 5, 4];
+
+        // добавляем число в массив
+        for (var i = 0; i < 1; i++) {
+            var a = aGetNumber();
+            b.push(15);
+        }
+        document.write(b + " / ");
+
+        // посчитать сумму масива
+        var summ = 0;
+        var j = 0;
+
+        while (j < b.length) {
+            summ += b[j];
+            j++;
+        }
+        document.write(summ + " / ");
+
+        // найти минимальное число в массиве
+        i = b.length, min = b[0];
+        while (i--) {
+            if (b[i] < min) {
+                min = b[i];
+            }
+        }
+        document.write(min + " / ");
+
+        // найти максимальное число в массиве
+        var max = b[0];
+        var g = 0;
+
+        while (g < b.length) {
+            if (max < b[g]) {
+                max = b[g];
+            }
+            g++
+        }
+        document.write(max + " / ");
+
+
+
+
+
+        if (svg > (max - min)(<)) {
+            console.log("больше")
+        } else {
+            console.log("меньше");
+        }
+
+
+    </script>
+</body>
+
+</html>
